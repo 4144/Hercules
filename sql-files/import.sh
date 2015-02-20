@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export CMD=mysql -u root -p hercules
+export CMD="mysql -u root -p hercules"
 
 $CMD <main.sql
 #$CMD <item_db.sql
